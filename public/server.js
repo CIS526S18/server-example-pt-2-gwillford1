@@ -60,7 +60,7 @@ function handleRequest(req, res){
         case '/':
             serveIndex('./',res);
             break;
-        case 'openhouse.html':
+        case '/openhouse.html':
             //res.end(cache['openhouse.html']);
             serveFile('./openhouse.html',res);
             break;
